@@ -23,11 +23,11 @@ module.exports = function findShortestPath(graph, start, end) {
     for (var i = 0; i < nextNodes.length; i++) {
       if (!paths[nextNodes[i]] || paths[currentNode].length + 1 < paths[nextNodes[i]].length) {
         paths[nextNodes[i]] = paths[currentNode].concat([nextNodes[i]]);
+        nextItems.enqueue(nextNodes[i]);
       }
       if (nextNodes[i] === end) {
         return paths[nextNodes[i]];
       }
-      nextItems.enqueue(nextNodes[i]);
     }
   }
 

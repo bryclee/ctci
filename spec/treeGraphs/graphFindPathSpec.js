@@ -7,7 +7,13 @@ describe('graphFindPath', function() {
 
   beforeEach(function() {
     graph = new Graph();
+    /*
+        A--->B--->C    D--->E
+         \    \  / \  /    /
+          =====\>   =/====>
+                ---->
 
+    */
     graph.addNode('A');
     graph.addNode('B');
     graph.addNode('C');
