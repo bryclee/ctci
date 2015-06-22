@@ -1,2 +1,2 @@
 # ctci
-Cracking the Coding Interview
+Select problems from Cracking the Coding Interview
