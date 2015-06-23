@@ -1,4 +1,4 @@
-module.exports = LinkedList = function() {
+module.exports = function() {
     var LinkedList = function() {
         this.head = null;
         this.tail = null;
