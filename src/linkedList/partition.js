@@ -1,4 +1,4 @@
-var partitionList = function(linkedList, value) {
+module.exports = function partitionList(linkedList, value) {
     // given LinkedList, a function to create a linked list
     var lowList = new LinkedList();
     var lowListTail;

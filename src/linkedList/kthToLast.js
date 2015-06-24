@@ -1,4 +1,4 @@
-var getKthToLast = function(linkedList, k) {
+module.exports = function kthToLast(linkedList, k) {
     var result;
 
     var recursiveSearch = function(node) {

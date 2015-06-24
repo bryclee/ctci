@@ -1,4 +1,4 @@
-var stringCompress = function(string) {
+module.exports = function stringCompress(string) {
     var result = [];
     string = string.split('');
 

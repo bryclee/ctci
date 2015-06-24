@@ -1,4 +1,4 @@
-var towersOfHanoi = function(n) {
+module.exports = function towersOfHanoi(n) {
   var tower1 = [];
   var tower2 = [];
   var tower3 = [];

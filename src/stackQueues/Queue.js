@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = (function() {
   var Queue = function() {
     this.inStack = [];
     this.outStack = [];
@@ -18,4 +18,4 @@ module.exports = function() {
   };
 
   return Queue;
-}();
+})();

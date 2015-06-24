@@ -1,4 +1,4 @@
-var checkBalancedTree = function(tree) {
+module.exports = function checkBalancedTree(tree) {
 
     var checkHeight = function(node) {
         var left = 0;

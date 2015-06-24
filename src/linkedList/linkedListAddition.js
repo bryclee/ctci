@@ -1,4 +1,4 @@
-var reverseLinkedListAddition = function(list1, list2) {
+module.exports = function reverseLinkedListAddition(list1, list2) {
   var result = new LinkedList();
 
   var num1 = list1.head;

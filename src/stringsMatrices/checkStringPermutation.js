@@ -1,4 +1,4 @@
-var checkPermutation = function(str1, str2) {
+module.exports = function checkStringPermutation(str1, str2) {
     var letters = {};
 
     for (var i = 0; i < str1.length; i++) {
@@ -22,4 +22,4 @@ var checkPermutation = function(str1, str2) {
     }
 
     return true;
-}
+};

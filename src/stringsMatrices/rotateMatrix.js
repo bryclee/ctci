@@ -1,4 +1,4 @@
-var rotateMatrix = function(matrix) {
+module.exports = function rotateMatrix(matrix) {
     var rotateLayer = function(matrix, layer) {
         var length = matrix.length;
         for (var i = layer; i < length - layer - 1; i++) {

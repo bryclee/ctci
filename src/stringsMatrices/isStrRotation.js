@@ -1,4 +1,4 @@
-var isStrRotation = function(str1, str2) {
+module.exports = function isStrRotation(str1, str2) {
     // Check if str2 is a rotation of str1
     if (str1.length !== str2.length) {
         return false;

@@ -1,4 +1,4 @@
-module.exports = function() {
+module.exports = (function() {
     var LinkedList = function() {
         this.head = null;
         this.tail = null;
@@ -22,4 +22,4 @@ module.exports = function() {
     };
 
     return LinkedList;
-}();
+})();
