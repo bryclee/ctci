@@ -1,8 +1,9 @@
 var expect = require('chai').expect;
 
 describe('5-1: shift M into N', function() {
+  var insert = require('../../src/5_bitManipulation/5-1.js');
+
   it('should properly shift', function() {
-    var insert = require('../../src/5_bitManipulation/5-1.js');
 
     var N = '10000000000';
     var M = '10011';
